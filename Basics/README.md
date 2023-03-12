@@ -4,23 +4,15 @@
 
 ### Zadanie 1.
 
-Sprawdź czy "123" jest równe 123, wykorzystaj oba sposoby na porównanie (== vs ===)
-
-### Zadanie 2.
-
-Sprawdź czy 0 jest równe wartości false przy użyciu obu sposobów porównania (== vs ===)
-
-### Zadanie 3.
-
 1. Stwórz zmienną o nazwie userName i przypisz jej swoje imie.
 2. Stwórz zmienną o nazwie age i przypisz jej dowolną wartość numeryczną
 3. Stwórz zmienna o nazwie city i przypisz jej nazwę dowolnej miejscowości
 4. Wydrukuj w konsoli taka informacje:
-   `Our user's name is: '' and is '' years old and lives in ''`
+   `Our user's name is '' and the user is '' years old. The user lives in ''`
 
 Luki w powyższym zdaniu wypełnij wartościami ze zmiennych.
 
-### Zadanie 4.
+### Zadanie 2.
 
 1. Stwórz funkcję `sum` dodającą dwie liczby.
 2. Przypisz wywołanie funkcji `sum(5, 5)` do zmiennej `ten`
@@ -28,7 +20,7 @@ Luki w powyższym zdaniu wypełnij wartościami ze zmiennych.
 4. Wykorzystaj funkcję `sum`, aby dodać wartości zmiennych `ten` i `four`.
 5. Wynik przypisz do zmiennej `myAddedNumbers` i wydrukuj wartość tej zmiennej w konsoli.
 
-### Zadanie 5.
+### Zadanie 3.
 
 Wydrukuj w konsoli taką informacje:
 `Username: x have length: y.`
@@ -37,24 +29,24 @@ Gdzie `x` to wartość zmiennej userName, a `y` to długość tej wartości
 
 ## Instrukcje warunkowe
 
-### Zadanie 6.
+### Zadanie 4.
 
 1. Stwórz dwie zmienna `firstUser` i `secondUser`. Przypisz im dowolne imiona.
 2. Napisz instrukcje warunkową `if`, która sprawdzi czy imiona są takie same:
-   1. Jesli Tak - wydrukuj w konsoli wiadomość: "O! The names are the same!"
-   2. Jesli Nie - wydrukuj w konsoli wiadomość: "Unfortunately the names are different :("
+   1. Jesli Tak - wydrukuj w konsoli wiadomość: "Oh! The names are the same!"
+   2. Jesli Nie - wydrukuj w konsoli wiadomość: "Unfortunately the names are different :/"
 
-### Zadanie 7.
+### Zadanie 5.
 
 1. Stwórz zmienną o nazwie `age`. I przypisz jej dowolną wartość liczbową.
 2. Napisz instrukcję warunkową, która sprawdzi czy wartość zmiennej `age` jest większa lub równa 18.
    1. Jeśli Tak - wydrukuj w konsoli wiadomość: "User is adult"
-   2. W każdym innym przypadku - wydrukuj w konsoli wiadomość: "User is underage"
+   2. W każdym innym przypadku - wydrukuj w konsoli wiadomość: "User is underaged"
 3. Zapisz tę funkcję na dwa sposoby
    1. Za pomocą `if`
    2. Za pomocą ternary operatora (trójargumentowego)
 
-### Zadanie 8.
+### Zadanie 6.
 
 Napisz funkcję `getBiggerNumber`, która z dwóch podanych liczb zwraca większą liczbę.
 
@@ -66,7 +58,7 @@ getBiggerNumber(2, 10); // 10
 getBiggerNumber(2000, 100); // 2000
 ```
 
-### Zadanie 9.
+### Zadanie 7.
 
 Napisz funkcję `itemsInCart()`, która zwróci odpowiednią gramatycznie liczbę przedmiotów w koszyku (item vs items).
 
@@ -75,7 +67,7 @@ itemsInCart(3); // You have 3 items in your cart.
 itemsInCart(1); // You have 1 item in your cart.
 ```
 
-### Zadanie 10.
+### Zadanie 8.
 
 Ćwiczenie na operatory logiczne.
 
@@ -88,7 +80,7 @@ Pobierz wiek użytkownika za pomocą `prompt()`.
 
 Kolejność warunków ma znaczenie!
 
-### Zadanie 11.
+### Zadanie 9.
 
 Ćwiczenie na operatory logiczne.
 
@@ -100,22 +92,22 @@ Kolejność warunków ma znaczenie!
    - isSummer: true/false
 3. Ustal swoje własne warunki, od jakich funkcja powinna nakazać wzięcie parasolki, a kiedy nie.
 
-### Zadanie 12.
+### Zadanie 10.
 
 Ćwiczenie na operatory logiczne.
 
 1. Napisz funkcję `isEqual`, która sprawdza czy przekazane liczby są równe:
 
-Dla wywołania isEqual(2, 2) zwraca true
-Dla wywołania isEqual(2, 10) zwraca false
-Dla wywołania isEqual(2000, 100) zwraca liczbę false
-Dla wywołania isEqual(100, '100') zwraca liczbę false
+   - Dla wywołania isEqual(2, 2) zwraca true
+   - Dla wywołania isEqual(2, 10) zwraca false
+   - Dla wywołania isEqual(2000, 100) zwraca false
+   - Dla wywołania isEqual(100, '100') zwraca false
 
-### Zadanie 13.
+### Zadanie 11.
 
 1. Napisz funkcję `canRideRollerCoaster(age, height)`:
-   1. Jeśli ma więcej niż 18 lat oraz więcej niż 175 cm wzrostu wypisz w konsoli "Can ride!" i zwróć `true`
-   2. W przeciwnym razie wypisz "Sorry kiddo, no can do." i zwróć `false`
+   - Jeśli ma więcej niż 18 lat oraz więcej niż 175 cm wzrostu wypisz w konsoli "Can ride!" i zwróć `true`
+   - W przeciwnym razie wypisz "Sorry kiddo, no can do." i zwróć `false`
 2. Napisz tę samą funkcję za pomocą `switch` statement
 
 ```js
@@ -127,7 +119,7 @@ canRideRollerCoaster(19, 190); // true
 
 ## Metody na typach prostych
 
-### Zadanie 14.
+### Zadanie 12.
 
 Napisz funkcję `alphabeticalOrder`, która ustawia litery w podanym wyrazie w kolejności alfabetycznej.
 
@@ -135,7 +127,7 @@ Napisz funkcję `alphabeticalOrder`, która ustawia litery w podanym wyrazie w k
 alphabeticalOrder("javascript"); // 'aacijprstv'
 ```
 
-### Zadanie 15.
+### Zadanie 13.
 
 Napisz funkcję `reverseText`, która odwraca kolejność liter w podanym wyrazie.
 
@@ -143,7 +135,7 @@ Napisz funkcję `reverseText`, która odwraca kolejność liter w podanym wyrazi
 reverseText("javascript"); // 'tpircsavaj'
 ```
 
-### Zadanie 16.
+### Zadanie 14.
 
 Napisz funkcję `getInitials`, która zwróci inicjały z podanego imienia i nazwiska.
 
@@ -151,7 +143,7 @@ Napisz funkcję `getInitials`, która zwróci inicjały z podanego imienia i naz
 getInitials("Harry Potter"); // 'H.P.'
 ```
 
-### Zadanie 17.
+### Zadanie 15.
 
 Napisz funkcję `slugify`, która zwróci podany ciąg znaków w formie tzw. "slug'a" (czyli wszystkie wyrazy z małej litery, połączone myślnikiem `-`)
 
@@ -160,9 +152,9 @@ slugify("Top 10 my favourite songs"); // top-10-my-favourite-songs
 slugify("Name of my blog article"); // name-of-my-blog-article
 ```
 
-### Zadanie 18.
+### Zadanie 16.
 
-Napisz funkcję `toUpperCase()`, która zwróci każdy z wyrazów w tym ciągu znaków z powiększoną pierwszą literą.
+Napisz funkcję `makeUpperCase()`, która zwróci każdy z wyrazów w tym ciągu znaków z powiększoną pierwszą literą.
 
 ```js
 toUpperCase("top 10 my favourite songs"); // Top 10 My Favourite Songs

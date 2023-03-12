@@ -29,7 +29,3 @@
 // Zadanie 15.
 
 // Zadanie 16.
-
-// Zadanie 17.
-
-// Zadanie 18.
