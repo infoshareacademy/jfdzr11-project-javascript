@@ -100,25 +100,113 @@
 
 //9
 
-[
-  ["a", "b"],
-  [1, 2],
-][ // ['a', 'b', 1, 2]
-  (["red", "blue"],
-  ["green", "red", "yellow"],
-  ["black", "blue"],
-  ["pink", "black", "white"])
-]; // ['red', 'blue', 'green', 'red', 'yellow', 'black', 'blue', 'pink', 'black', 'white']
+// [
+//   ["a", "b"],
+//   [1, 2],
+// ][ // ['a', 'b', 1, 2]
+//   (["red", "blue"],
+//   ["green", "red", "yellow"],
+//   ["black", "blue"],
+//   ["pink", "black", "white"])
+// ]; // ['red', 'blue', 'green', 'red', 'yellow', 'black', 'blue', 'pink', 'black', 'white']
 
-function flatArray(arr) {
-  let newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
-    for (let j = 0; j < i.length; j++) {
-      newArr.push(arr[j]);
-      console.log(i);
-    }
-  }
-  return newArr;
+// function flatArray(arr) {
+//   return arr.flat();
+// }
+// console.log(
+//   flatArray([
+//     ["a", "b"],
+//     [1, 2],
+//   ])
+// );
+
+//10
+const people = [
+  {
+    name: "Alice",
+    gender: "woman",
+    age: 27,
+    city: "New York",
+    height: 68,
+    job: "Software Engineer",
+    car: "Toyota Corolla",
+  },
+  {
+    name: "Bob",
+    gender: "man",
+    age: 35,
+    city: "San Francisco",
+    height: 72,
+    job: "Marketing Manager",
+    car: "Honda Civic",
+  },
+  {
+    name: "Charlie",
+    gender: "man",
+    age: 42,
+    city: "Chicago",
+    height: 70,
+    job: "Sales Director",
+    car: "Ford Mustang",
+  },
+  {
+    name: "Danielle",
+    gender: "woman",
+    age: 24,
+    city: "Los Angeles",
+    height: 64,
+    job: "Graphic Designer",
+    car: "Volkswagen Beetle",
+  },
+  {
+    name: "Edward",
+    gender: "man",
+    age: 50,
+    city: "Boston",
+    height: 76,
+    job: "Lawyer",
+    car: "BMW 3 Series",
+  },
+];
+
+// function belowThirty(people) {
+//   const filtered = people.filter((person) => person.age < 30);
+//   return filtered;
+// }
+
+// console.log(belowThirty(people));
+
+// 11;
+// function showUserInfo(users) {
+//   users.forEach((user) => {
+//     let coolCar = " which is fun car";
+//     let boringCar = " which is boring car";
+//     let info = "";
+
+//     if (user.car === "BMW 3 Series" || user.car === "Ford Mustang") {
+//       info =
+//         `The user's name is ${user.name} and the user is ${user.age} years old. The user works as ${user.job} and drives ${user.car}` +
+//         coolCar;
+//     } else {
+//       info =
+//         `The user's name is ${user.name} and the user is ${user.age} years old. The user works as ${user.job} and drives ${user.car}` +
+//         boringCar;
+//     }
+//     return console.log(info);
+//   });
+// }
+
+// showUserInfo(people);
+
+//12
+
+function aboveForty(people) {
+  let aboveForty = people.filter((person) => person.age > 40);
+  aboveForty.forEach((user) => {
+    console.log(`The user is ${user.name} and he is ${user.age} years old`);
+  });
+  aboveForty.reduce((total, person.age) => {
+    total += person.age
+  })
 }
-console.log(flatArray(["a", "b"], [1, 2]));
+aboveForty(people);
