@@ -124,7 +124,7 @@ canRideRollerCoaster(19, 190); // true
 Napisz funkcję `alphabeticalOrder`, która ustawia litery w podanym wyrazie w kolejności alfabetycznej.
 
 ```js
-alphabeticalOrder("javascript"); // 'aacijprstv'
+alphabeticalOrder('javascript'); // 'aacijprstv'
 ```
 
 ### Zadanie 13.
@@ -132,7 +132,7 @@ alphabeticalOrder("javascript"); // 'aacijprstv'
 Napisz funkcję `reverseText`, która odwraca kolejność liter w podanym wyrazie.
 
 ```js
-reverseText("javascript"); // 'tpircsavaj'
+reverseText('javascript'); // 'tpircsavaj'
 ```
 
 ### Zadanie 14.
@@ -140,7 +140,7 @@ reverseText("javascript"); // 'tpircsavaj'
 Napisz funkcję `getInitials`, która zwróci inicjały z podanego imienia i nazwiska.
 
 ```js
-getInitials("Harry Potter"); // 'H.P.'
+getInitials('Harry Potter'); // 'H.P.'
 ```
 
 ### Zadanie 15.
@@ -148,8 +148,8 @@ getInitials("Harry Potter"); // 'H.P.'
 Napisz funkcję `slugify`, która zwróci podany ciąg znaków w formie tzw. "slug'a" (czyli wszystkie wyrazy z małej litery, połączone myślnikiem `-`)
 
 ```js
-slugify("Top 10 my favourite songs"); // top-10-my-favourite-songs
-slugify("Name of my blog article"); // name-of-my-blog-article
+slugify('Top 10 my favourite songs'); // top-10-my-favourite-songs
+slugify('Name of my blog article'); // name-of-my-blog-article
 ```
 
 ### Zadanie 16.
@@ -157,6 +157,6 @@ slugify("Name of my blog article"); // name-of-my-blog-article
 Napisz funkcję `makeUpperCase()`, która zwróci każdy z wyrazów w tym ciągu znaków z powiększoną pierwszą literą.
 
 ```js
-toUpperCase("top 10 my favourite songs"); // Top 10 My Favourite Songs
-toUpperCase("Name of my Blog article"); // Name Of My Blog Article
+toUpperCase('top 10 my favourite songs'); // Top 10 My Favourite Songs
+toUpperCase('Name of my Blog article'); // Name Of My Blog Article
 ```
