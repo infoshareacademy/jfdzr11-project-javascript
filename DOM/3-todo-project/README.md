@@ -2,6 +2,8 @@
 
 CRUD (Create Read Update Delete)
 
+Ponizsze zadania wykonaj w stworzonym przez siebie pliku script.js
+
 ### Zadanie 1.
 
 Na podstawie podanego szkieletu HTML dodaj nowe elementy do listy to-do (wewnątrz kontenera z id `#task-container`)

@@ -1,5 +1,7 @@
 # DevJobs Board
 
+Wykonaj ponizsze zadania w stworzonym przez siebie pliku script.js
+
 ### Zadanie 1.
 
 Dodaj 3 identyczne oferty pracy do tablicy ogłoszeń korzystając z gotowej templatki `<-- Single job card -->`.
